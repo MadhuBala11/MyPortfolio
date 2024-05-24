@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#coding-journey">Coding Journey</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">More</a>
+                    <div class="dropdown-menu">
+                        <a href="https://github.com/madhubala11" target="_blank">GitHub</a>
+                        <a href="https://www.linkedin.com/in/godugu-madhubala-226656252/" target="_blank">LinkedIn</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Welcome to My Digital Portfolio</h1>
+        <p>"Hi there! You'll find a collection of my coding projects and experiences. 
+            I am passionate about transforming ideas into functional, innovative software solutions."</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>"Hello! I'm G S Madhu Bala, a dedicated student at ACE Engineering College with a deep passion for coding. 
+            My journey in the world of technology is driven by a relentless curiosity and a love for solving complex problems through innovative coding solutions. 
+            I thrive on learning new programming languages and technologies, and I am excited to apply my skills in the ever-evolving field of software development.
+            My journey in computer science has been both challenging and rewarding."</p>
+        <img src="myphoto11.jpg" alt="My Photo" class="profile-photo">
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <ul>
+            <li>
+                <h3><a href="https://github.com/madhubala11/break-a-sweat" target="_blank">Break a Sweat</a></h3>
+                <p>A simple and responsive web page for a gym showcasing its features, services, and contact information. Built using HTML, CSS, and JS.</p>
+                <img src="breakasweatimg.png" alt="Break a Sweat Project" class="project-image">
+            </li>
+            <li>
+                <h3><a href="https://github.com/madhubala11/diabetes-prediction" target="_blank">Diabetes Prediction</a></h3>
+                <p>A machine learning project using logistic regression to predict diabetes based on various features such as age, blood pressure, and glucose level. Implemented with Python, Pandas, Scikit-Learn, and Matplotlib.</p>
+                <img src="diabeteimg.png" alt="Diabetes Prediction Project" class="project-image">
+            </li>
+            <li>
+                <h3><a href="https://github.com/madhubala11/wheelgame" target="_blank">Wheelgame</a></h3>
+                <p>An implementation of the classic word guessing game Hangman in Java, demonstrating object-oriented programming, data structures, control structures, input/output, and error handling.</p>
+                <img src="wheelgame.jpeg" alt="Wheelgame Project" class="project-image">
+            </li>
+        </ul>
+    </section>
+
+    <section id="coding-journey">
+        <h2>My Coding Journey</h2>
+        <ul>
+            <li>
+                <h3><a href="https://www.codechef.com/users/madhubala11" target="_blank">CodeChef</a></h3><br>
+                <p>My CodeChef journey has been a valuable learning experience, where I've tackled various coding challenges and competitions, improving my problem-solving skills and understanding of algorithms.</p>
+            </li>
+            <li>
+                <h3><a href="https://leetcode.com/madhu_bala11/" target="_blank">LeetCode</a></h3><br>
+                <p>On LeetCode, I have solved numerous problems, gaining expertise in data structures and algorithms.</p>
+            </li>
+            <li>
+                <h3><a href="https://codeforces.com/profile/madhubala11" target="_blank">Codeforces</a></h3><br>
+                <p>Participating in Codeforces contests has helped me enhance my coding skills and problem-solving abilities.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <!-- Certificate 1 -->
+            <li>
+                <span>Advanced Java Programming</span> 
+                <span>Issuing organization: LinkedIn</span> 
+                <span>Issue date: May 2024</span> 
+                <button onclick="viewCertificate('https://drive.google.com/file/d/1v3lBHGsBg4myXj_aqu4WkNizUdBczS2r/view?usp=drivesdk')">View</button>
+            </li>
+            <!-- Certificate 2 -->
+            <li>
+                <span>Cybersecurity Essentials</span> 
+                <span>Issuing organization: Cisco Networking Academy</span> 
+                <span>Issue date: May 2024</span> 
+                <button onclick="viewCertificate('https://drive.google.com/file/d/1v8hP1w39nHf4neupaDh9Vdjd0d8Gs1zA/view?usp=drivesdk')">View</button>
+            </li>
+            <li>
+                <span>Introduction to Cybersecurity</span>
+                <span>Issuing Organization: Cisco Networking Academy</span>
+                <span>Issue Date: May 2024</span>
+                <button onclick="viewCertificate('https://drive.google.com/file/d/1tq80h9WSwJUs_c_AP3mybGZVsfS5qYH-/view?usp=drivesdk')">View</button>
+            </li>
+            <li>
+                <span>PCAP: Python Essentials in Programming</span>
+                <span>Issuing Organization: Cisco Networking Academy</span>
+                <span>Issue Date: May 2024</span>
+                <button onclick="viewCertificate('https://drive.google.com/file/d/1v7o94fE50gpZ6Dp2gqybMt_bofycmNRH/view?usp=drivesdk')">View</button>
+            </li>
+            <li>
+                <span>Prepare for the Java SE 8 Programmer (1Z0-808) Certification</span>
+                <span>Issuing Organization: LinkedIn</span>
+                <span>Issue Date: May 2024</span>
+                <button onclick="viewCertificate('https://www.linkedin.com/learning/certificates/d7540365d7908f1f08ae61029cd8ba898c00eecb7d2ea86279ea084df7d7d1cd')">View</button>
+            </li>
+            <li>
+                <span>Certificate of Participation in MCQ Coding Assessment of Unstop Talent Park - Tech</span>
+                <span>Issuing Organization: Unstop</span>
+                <span>Issue Date: April 2024</span>
+                <button onclick="viewCertificate('https://unstop.com/certificate-preview/a25ad212-de7b-4c10-b632-cbf1738973c1?utm_campaign=site-emails')">View</button>
+            </li>
+            <li>
+                <span>TCS iON Career Edge - Young Professional</span>
+                <span>Issuing Organization: TCS</span>
+                <span>Issue Date: April 2024</span>
+                <button onclick="viewCertificate('https://drive.google.com/file/d/1pT3l1ANT1D66v_YxQ7H-RmUxVt6np1HX/view?usp=drivesdk')">View</button>
+            </li>
+            <li>
+                <span>Uipath Automation Explorer for Students</span>
+                <span>Issuing Organization: UiPath</span>
+                <span>Issue Date: March 2024</span>
+                <button onclick="viewCertificate('https://drive.google.com/file/d/1lC3_HsynhYGDUY-uO_l3oGM1jTj-ZvKY/view?usp=drivesdk')">View</button>
+            </li>
+            <li>
+                <span>CCNAv7: Introduction to Networks</span>
+                <span>Issuing Organization: Cisco Networking Academy</span>
+                <span>Issue Date: February 2024</span>
+                <button onclick="viewCertificate('https://drive.google.com/file/d/1W8tHYjXs2TbxmBbFj0I9Jwjf30En-6PZ/view?usp=drivesdk')">View</button>
+            </li>
+            <li>
+                <span>CLA: Programming Essentials in C</span>
+                <span>Issuing Organization: Cisco Networking Academy</span>
+                <span>Issue Date: February 2024</span>
+                <button onclick="viewCertificate('https://drive.google.com/file/d/1UGiARedQoi1SHzWZRAutXa--9-aLge1F/view?usp=drivesdk')">View</button>
+            </li>
+            <li>
+                <span>Salesforce Developer Virtual Internship Program</span>
+                <span>Issuing Organization: SmartInternz</span>
+                <span>Issue Date: January 2024</span>
+                <button onclick="viewCertificate('https://smartinternz.com/internships/salesforce_certificates/f2f8a7bd438db226f6e180190cb668f3')">View</button>
+            </li>
+            <li>
+                <span>CSS</span>
+                <span>Issuing Organization: Great Learning</span>
+                <span>Issue Date: May 202</span>
+                <button onclick="viewCertificate('https://drive.google.com/file/d/1Oe5yxCD7iXHQQJjcz3aF0iv8fqb9E1bk/view?usp=drivesdk')">View</button>
+            </li>
+            <li>
+                <span>HTML</span>
+                <span>Issuing Organization: Great Learning</span>
+                <span>Issue Date: May 2023</span>
+                <button onclick="viewCertificate('https://drive.google.com/file/d/1Oe5yxCD7iXHQQJjcz3https://drive.google.com/file/d/1OA1R0LD4heSX9_JkLrSnPYkD1AfKFJII/view?usp=drivesdk')">View</button>
+            </li>
+            <li>
+                <span>Programming in C Certification</span>
+                <span>Issuing Organization: CodeChef</span>
+                <span>Issue Date: May 2023</span>
+                <button onclick="viewCertificate('https://drive.google.com/file/d/1RbCH8cymebh7GdsaXtv-21trwAvsJIfq/view?usp=drivesdk')">View</button>
+            </li>
+            <li>
+                <span>Programming in C Certification</span>
+                <span>Issuing Organization: CodeChef</span>
+                <span>Issue Date: May 2023</span>
+                <button onclick="viewCertificate('https://drive.google.com/file/d/1RbCH8cymebh7GdsaXtv-21trwAvsJIfq/view?usp=drivesdk')">View</button>
+            </li>
+            <li>
+                <span>Problem Solving Through Programming in C</span>
+                <span>Issuing Organization: NPTEL</span>
+                <span>Issue Date: November 2022</span>
+                <button onclick="viewCertificate('https://drive.google.com/file/d/1MxZZb0rqDF_pPH9tWJmLunKpsi91al5a/view?usp=drivesdk')">View</button>
+            </li>
+            <li>
+                <span>Business English Certificate Preliminary</span>
+                <span>Issuing Organization: Cambridge University Press & Assessment</span>
+                <span>Issue Date: September 2022</span>
+                <button onclick="viewCertificate('https://drive.google.com/file/d/1jLiKDjA6vjLLeU2w-DykIfDTmm67Zc_F/view?usp=drivesdk')">View</button>
+            </li>
+            <li>
+                <span>Joy Of Computing Using Python</span>
+                <span>Issuing Organization: NPTEL</span>
+                <span>Issue Date: April 2022</span>
+                <button onclick="viewCertificate('https://drive.google.com/file/d/1MwzqPxrV1dDYEjhGPeZOLwODRffrEYwO/view?usp=drivesdk')">View</button>
+            </li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+            <ul>
+            <li>Programming Languages: Java, Python, C++, C</li>
+            <li>Web Development: HTML, CSS, JavaScript</li>
+            <li>Machine Learning: Scikit-Learn, Pandas</li>
+            <li>Tools: Git, GitHub</li>
+            </ul>
+            </section>
+            <section id="contact">
+            <h2>Contact Me</h2>
+                <ul>
+                    <li>Email: <a href="mailto:godugumadhubala@gmail.com">godugumadhubala@gmail.com</a></li>
+                    <li>Phone: <a href="tel:8790278336">8790278336</a></li>
+                </ul>
+            </section>
+            <footer>
+                <p>&copy; 2024 My Portfolio</p>
+            </footer>
+<script src="script1.js"></script>
+</body>
+</html>
